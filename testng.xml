@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "suite">
+	<test thread-count = "2" name = "Ebay Pages Test">
+		<classes>
+			<class name = "com.ebay.test.TestBase" />
+			<!-- <class name = "com.ebay.test.EbayHomePageTest" /> -->
+			<class name = "com.target.test.TargetHomePageTest" />
+		</classes>
+	</test>
+</suite>
