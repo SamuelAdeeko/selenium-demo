@@ -1,5 +1,6 @@
 package com.ebay.pages;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.How;
 public class EbayHomePage {
 
 	private WebDriver driver;
+	private static Logger log = Logger.getLogger(EbayHomePage.class);
 	
 	public EbayHomePage(WebDriver driver) {
 		this.driver = driver;
@@ -24,12 +26,14 @@ public class EbayHomePage {
 	
 	public void setSearch(String item) {
 		searchForAnything.sendKeys(item);
+		log.info("Searched item is: " + item);
 	}
 	
 	// This method will be used to click the search button
 	
 	public void setSearchButton() {
 		searchButton.click();
+		log.info("Search button clicked");
 	}
 
 	

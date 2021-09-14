@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="suite" duration-ms="978" started-at="2021-09-13T13:26:44Z" finished-at="2021-09-13T13:26:45Z">
+  <suite name="suite" duration-ms="987" started-at="2021-09-14T22:10:36Z" finished-at="2021-09-14T22:10:37Z">
     <groups>
     </groups>
-    <test name="Ebay Pages Test" duration-ms="978" started-at="2021-09-13T13:26:44Z" finished-at="2021-09-13T13:26:45Z">
+    <test name="Ebay Pages Test" duration-ms="987" started-at="2021-09-14T22:10:36Z" finished-at="2021-09-14T22:10:37Z">
       <class name="com.ebay.test.TestBase">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.ebay.test.TestBase@3cda1055]" name="initialize" is-config="true" duration-ms="9057" started-at="2021-09-13T13:26:35Z" finished-at="2021-09-13T13:26:44Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.ebay.test.TestBase@3fb6a447]" name="initialize" is-config="true" duration-ms="10538" started-at="2021-09-14T22:10:26Z" finished-at="2021-09-14T22:10:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.ebay.test.TestBase@3cda1055]" name="endTest" is-config="true" duration-ms="255" started-at="2021-09-13T13:26:50Z" finished-at="2021-09-13T13:26:51Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.ebay.test.TestBase@3fb6a447]" name="endTest" is-config="true" duration-ms="351" started-at="2021-09-14T22:10:42Z" finished-at="2021-09-14T22:10:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- com.ebay.test.TestBase -->
       <class name="com.target.test.TargetHomePageTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.target.test.TargetHomePageTest@7a5d012c]" name="init" duration-ms="933" started-at="2021-09-13T13:26:44Z" finished-at="2021-09-13T13:26:45Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.target.test.TargetHomePageTest@79b4d0f]" name="init" duration-ms="947" started-at="2021-09-14T22:10:36Z" finished-at="2021-09-14T22:10:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->

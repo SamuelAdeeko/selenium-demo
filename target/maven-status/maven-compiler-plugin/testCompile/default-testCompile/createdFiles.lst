@@ -1,7 +1,4 @@
+com/techbee/selenium/EbayHomePageTest.class
 com/target/test/TargetHomePageTest.class
 com/ebay/test/EbayHomePageTest.class
-com/ebay/pages/EbayHomePage.class
-com/techbee/selenium/EbayHomePageTest.class
-com/ebay/pages/EbaySearchedProductPage.class
-com/target/pages/TargetHomePage.class
 com/ebay/test/TestBase.class
